@@ -7,67 +7,7 @@ html,body {
     margin: 0px;
 }
 
-a.menu_text:hover, a.menu_text:active
-{
-	text-decoration: none;
-	font-size: 23px;
-}
 
-a.menu_text:link, a.menu_text:visited
-{
-	text-decoration: none;
-	color: #e78800;
-}
-
-a.text_content:link, a.text_content:visited
-{
-	text-decoration: none;
-	color: #000000;
-}
-
-a.text_content:hover, a.text_content:active
-{
-	text-decoration: underline;
-	color: #000000;
-}
-
-.menu_text_ON
-{
-	font-size: 23px;
-}
-
-.row_normal
-{
-	height: 33px;
-}
-
-a.link_normal:link, a.link_normal:visited
-{
-	text-decoration: none;
-	color: #000000;
-}
-
-a.link_normal:hover, a.link_normal:active
-{
-	text-decoration: underline;
-	color: #000000;
-}
-
-
-.link_normal
-{
-	-webkit-user-select: text; 
-	-moz-user-select: text; 
-	-ms-user-select: text; 
-	user-select: text;
-	text-decoration: none;
-	color: #000000;
-}
-
-a.row_normal:hover
-{
-	height: 33px;
-}
 
 .default_text_for_content
 {
@@ -114,15 +54,6 @@ a.row_normal:hover
 	height: 100%;
 }
 
-#buttonArea
-{
-	position: absolute;
-	bottom: 100px;
-	!top: 100px;
-	right: 0px;
-	z-index: 100;
-}
-
 input 
 {
 	height: 25px;
@@ -167,87 +98,16 @@ select
   padding: 1px 2px;
 }
 
-#editorModal {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	padding: 0 20px;
-	background: rgba(0,0,0,0.6);
-	z-index: 20;	
-}
-
-#tinyMCEeditorarea {
-	width: 80%;
-	height: 80%;
-	left: calc(20% / 2);
-	top: calc(20% / 2);
-	position: absolute;
-	background: #ffffff;
-}
-
-#appArea
-{
-	-webkit-user-drag: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	
-!	position: fixed;
-!	top: 0px;
-!	left: 0px;
-!	right: 0px;
-!	bottom: 0px;
-!	z-index:1;
-
-}
-
-#menuArea
-{
-	position: absolute;
-	top: 100px;
-	left: 100px;
-	height: 400px;
-	width: 250px;
-	z-index:100;
-}
-
-#canvasArea
-{
-	background-color: #fff;
-	position: absolute;
-	top: 5%;
-	right: 5%;
-	height: 90%;
-	left: 5%;
-	z-index:10;
-!	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
-!	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
-!	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
-}
-
 #documentArea
 {
 	background-color: #fff;
-	position: absolute;
+	7* position: absolute; */
 	top: calc(10% / 2);
 	left: calc(10% / 2);
 	z-index:10;
-!	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
-!	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
-!	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
-}
-
-#documentAreaNoSheet
-{
-	background-color: #ccc;
-	position: absolute;
-	top: calc(10% / 2);
-	left: calc(10% / 2);
-	z-index:10;
-!	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
-!	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
-!	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
 }
 
 #document
