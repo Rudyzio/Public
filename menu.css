@@ -2,102 +2,6 @@
 
 /* CSS Document */
 
-html,body {
-    height:100%;
-    margin: 0px;
-}
-
-
-
-.default_text_for_content
-{
-	font-family: monospace;
-	font-size: 15px;
-	color: #ccc;
-}
-
-.text_content
-{
-	font-family: 'Source Sans Pro';
-    font-weight: 200;
-!	font-family: monospace;
-	font-size: 18px;
-	color: #000;
-}
-
-.error_text
-{
-	font-family: monospace;
-	font-size: 15px;
-	color: #E80000;
-}
-
-
-.table
-{
-	font-family: 'Source Sans Pro'; 
-	font-weight: 200;
-	font-size: 20px;
-	-webkit-user-drag: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	vertical-align: middle;
-
-}
-
-.templateOwnerField
-{
-	position:inherit;
-	width: 100%;
-	height: 100%;
-}
-
-input 
-{
-	height: 25px;
-	width:150px;
-	padding: 4px;
-    display: inline-block;
-    border: 0px;
-    background: #F5F5F5;
-    border-radius: 4px;
-    vertical-align: middle;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-select 
-{
-!	height: 25px;
-	width:150px;
-	padding: 4px;
-    display: inline-block;
-    border: 0px;
-    background: #F5F5F5;
-    border-radius: 4px;
-    vertical-align: middle;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.colorPickerButton {
-  -webkit-appearance: square-button;
-  width: 44px;
-  height: 23px;
-  background-color: buttonface;
-  border: 1px solid rgb(169, 169, 169);
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  padding: 1px 2px;
-}
-
 #documentArea
 {
 	background-color: #fff;
@@ -112,9 +16,5 @@ select
 
 #document
 {
-	position: inherit;
-	left: 5%;
-	right: 5%;
-	top:5%;
-	bottom:5%;
+	padding: 20px;
 }
