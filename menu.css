@@ -1,0 +1,409 @@
+@charset "windows-1252";
+
+/* CSS Document */
+
+html,body {
+    height:100%;
+    margin: 0px;
+}
+
+a.menu_text:hover, a.menu_text:active
+{
+	text-decoration: none;
+	font-size: 23px;
+}
+
+a.menu_text:link, a.menu_text:visited
+{
+	text-decoration: none;
+	color: #e78800;
+}
+
+a.text_content:link, a.text_content:visited
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+a.text_content:hover, a.text_content:active
+{
+	text-decoration: underline;
+	color: #000000;
+}
+
+.menu_text_ON
+{
+	font-size: 23px;
+}
+
+.row_normal
+{
+	height: 33px;
+}
+
+a.link_normal:link, a.link_normal:visited
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+a.link_normal:hover, a.link_normal:active
+{
+	text-decoration: underline;
+	color: #000000;
+}
+
+
+.link_normal
+{
+	-webkit-user-select: text; 
+	-moz-user-select: text; 
+	-ms-user-select: text; 
+	user-select: text;
+	text-decoration: none;
+	color: #000000;
+}
+
+a.row_normal:hover
+{
+	height: 33px;
+}
+
+.default_text_for_content
+{
+	font-family: monospace;
+	font-size: 15px;
+	color: #ccc;
+}
+
+.text_content
+{
+	font-family: 'Source Sans Pro';
+    font-weight: 200;
+!	font-family: monospace;
+	font-size: 18px;
+	color: #000;
+}
+
+.error_text
+{
+	font-family: monospace;
+	font-size: 15px;
+	color: #E80000;
+}
+
+
+.table
+{
+	font-family: 'Source Sans Pro'; 
+	font-weight: 200;
+	font-size: 20px;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+
+}
+
+.templateOwnerField
+{
+	position:inherit;
+	width: 100%;
+	height: 100%;
+}
+
+#buttonArea
+{
+	position: absolute;
+	bottom: 100px;
+	!top: 100px;
+	right: 0px;
+	z-index: 100;
+}
+
+input 
+{
+	height: 25px;
+	width:150px;
+	padding: 4px;
+    display: inline-block;
+    border: 0px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+select 
+{
+!	height: 25px;
+	width:150px;
+	padding: 4px;
+    display: inline-block;
+    border: 0px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.colorPickerButton {
+  -webkit-appearance: square-button;
+  width: 44px;
+  height: 23px;
+  background-color: buttonface;
+  border: 1px solid rgb(169, 169, 169);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  padding: 1px 2px;
+}
+
+#editorModal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0 20px;
+	background: rgba(0,0,0,0.6);
+	z-index: 20;	
+}
+
+#tinyMCEeditorarea {
+	width: 80%;
+	height: 80%;
+	left: calc(20% / 2);
+	top: calc(20% / 2);
+	position: absolute;
+	background: #ffffff;
+}
+
+#appArea
+{
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+!	position: fixed;
+!	top: 0px;
+!	left: 0px;
+!	right: 0px;
+!	bottom: 0px;
+!	z-index:1;
+
+}
+
+#menuArea
+{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 400px;
+	width: 250px;
+	z-index:100;
+}
+
+#canvasArea
+{
+	background-color: #fff;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	height: 90%;
+	left: 5%;
+	z-index:10;
+!	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+!	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+!	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+#documentArea
+{
+	background-color: #fff;
+	position: absolute;
+	top: calc(10% / 2);
+	left: calc(10% / 2);
+	z-index:10;
+!	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+!	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+!	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+#documentAreaNoSheet
+{
+	background-color: #ccc;
+	position: absolute;
+	top: calc(10% / 2);
+	left: calc(10% / 2);
+	z-index:10;
+!	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+!	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+!	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+#document
+{
+	position: inherit;
+	left: 5%;
+	right: 5%;
+	top:5%;
+	bottom:5%;
+}
+
+#mainEntranceMenu
+{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 400px;
+	width: 250px;
+	z-index:100;
+}
+
+#mainEntranceMenuEditor
+{
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	height: 50px;
+	width: 80%;
+	z-index:100;
+}
+
+#curatorArea
+{
+	clear: left;
+	height: 410px;
+	width: 450px;
+	margin: 0px auto;
+	z-index:200;
+}
+
+#curatorArea1
+{
+	clear: left;
+	height: 410px;
+	width: 450px;
+	margin: 0px auto;
+	z-index:200;
+}
+
+
+#tinyMCEcuratorArea
+{
+	position: absolute;
+	top: 120px;
+	left: calc(10% / 2);
+	height: calc(100% - 140px);
+	width: 90%;
+	margin: 0px auto;
+	z-index:100;
+}
+
+#editableContent
+{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	height: 80%;
+	width: 80%;
+	z-index:20;
+}
+
+.mce-tinymce, .mce-edit-area.mce-container, .mce-container-body.mce-stack-layout
+{
+    height: 100% !important;
+}
+
+.mce-edit-area.mce-container {
+    height: calc(100% - 120px) !important;
+    overflow-y: scroll;
+}
+
+#loginTable {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#approvalDiv {
+	display: none;
+	position: inherit;
+	right: 50px;
+	bottom: 50px;
+	width: 200px;
+	height: 200px;
+	z-index: 100;
+}
+
+#avatarLogin {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+!	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.6);
+	z-index: 200;
+}
+
+#avatarLoginForm {
+	position: absolute;
+	vertical-align: top;
+	top: 120px;
+	left: calc((100% - 400px) / 2);
+	height: 420px;
+	width: 400px;
+	background-color: rgba(255,255,255,1);
+	z-index: 201;
+}
+
+#loginTable2 {
+	position: static;
+	top:40px;
+}
+
+#map {
+    width: 50%;
+    height: 75%;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+	z-index: 12;
+}
+
+.centerMarker{
+  position:absolute;
+  /*url of the marker*/
+  background:url(https://maps.gstatic.com/mapfiles/markers2/marker.png) no-repeat;
+  /*center the marker*/
+  top:50%;left:50%;
+
+  /*fix offset when needed*/
+  margin-left:-10px;
+  margin-top:-34px;
+  /*size of the image*/
+  height:34px;
+  width:20px;
+
+  cursor:pointer;
+
+  z-index: 15;
+}
