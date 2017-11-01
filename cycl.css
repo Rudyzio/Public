@@ -1,0 +1,35 @@
+.mainTable {
+    width: 450px;
+    font-family: helvetica;
+    background-color: #b3b3b3;
+}
+
+.centeredCell {
+    text-align: center;
+    line-height: 20px;
+}
+
+.hSpacer {
+    height: 15px;
+}
+
+.h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.h3 {
+    font-size: 14px;
+}
+
+.c1 {
+    font-size: 14px;
+}
+
+.c2 {
+    font-size: 14px;
+    font-weight: bold;
+}
