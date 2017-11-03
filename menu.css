@@ -18,3 +18,37 @@
 {
 	padding: 20px;
 }
+
+#documentArea1
+{
+	background-color: #fff;
+	/* position: absolute; */
+	top: calc(10% / 2);
+	left: calc(10% / 2);
+	z-index:10;
+	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+#document1
+{
+	padding: 20px;
+}
+
+#documentArea2
+{
+	background-color: #fff;
+	/* position: absolute; */
+	top: calc(10% / 2);
+	left: calc(10% / 2);
+	z-index:10;
+	-webkit-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+#document2
+{
+	padding: 20px;
+}
